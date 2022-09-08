@@ -8,14 +8,3 @@ body{
       
 }
 
-hr {
-    position: absolute;
-    width: 150px;
-    height: 0px;
-    left: 109px;
-    top: 125.5px;
-    
-    border: 2px solid #000000;
-    transform: rotate(-0.19deg);
-}
-
