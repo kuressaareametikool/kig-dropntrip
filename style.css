@@ -2,7 +2,20 @@ body{
     background-color: #f5f5f5;
 }
     
-    .pref-container {
-    
-    text-align: center;
+.pref-container {
+    display: flex; 
+    justify-content: center;
+      
 }
+
+hr {
+    position: absolute;
+    width: 150px;
+    height: 0px;
+    left: 109px;
+    top: 125.5px;
+    
+    border: 2px solid #000000;
+    transform: rotate(-0.19deg);
+}
+
