@@ -37,3 +37,9 @@ h1 {
   width: 150px;
   letter-spacing: 2px;
 }
+
+.drop-header {
+    background-color: #e2e8ee;
+    height: 151px;
+}
+
