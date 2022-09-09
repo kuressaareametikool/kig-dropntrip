@@ -1,6 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&family=Roboto&display=swap');
+
+
 body {
   background-color:#E2E8EE;
   margin: 0;
+  font-family:'Nunito', sans-serif;
 }
 
 /* Drop page */
