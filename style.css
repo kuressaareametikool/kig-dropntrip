@@ -1,8 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&family=Roboto&display=swap');
 
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
-  background-color:#E2E8EE;
+  background-color: #f1f3f5;
   margin: 0;
   font-family:'Nunito', sans-serif;
 }
@@ -12,21 +17,29 @@ body {
 .content {
   display: flex;
   justify-content: center;
+  width: 375px;
+  height: 812px;
+  margin:0 auto;
+  background-color:#e2e8ee;
 }
 
 .header {
-  background-color: #eef0f1;
-  height: 151px;
+  margin-top: 61px;
 }
-<<<<<<< HEAD
+
+h1 {
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: normal;
+
+}
+.title {
+  width: 150px;
+  letter-spacing: 2px;
+}
 
 .drop-header {
     background-color: #e2e8ee;
     height: 151px;
 }
 
-
-.drop-map {
-}
-=======
->>>>>>> 7f0c1bda7cf2e7eda9315c804a0fa50705b974e4
