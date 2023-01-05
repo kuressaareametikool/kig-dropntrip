@@ -48,7 +48,7 @@ h1 {
   justify-content: center;
   text-align: center;
   width: 375px;
-  height: 329px;
+  height: 365px;
   margin:0 auto;
   background-color:#e2e8ee;
 }
@@ -77,4 +77,8 @@ h2 {
   text-align: center;
   align-items: center;
 }  
+.close {
+  margin-right: 10px;
+}  
+
 
