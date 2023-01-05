@@ -42,25 +42,3 @@ h1 {
     background-color: #e2e8ee;
     height: 151px;
 }
-
-.wrapper{
-    width: 1517px;
-    border: 1px solid;
-    display: flex;
-    overflow-x: auto;
-    
-}
-
-.wrapper::-webkit-scrollbar{
-    width:0;
-}
-.item{
-   background-color: white;
-    margin-right: 2px;
-}
-
-img{
-    min-height: 143px;
-    width: auto;
-    height: 100%;
-}

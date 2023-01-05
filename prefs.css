@@ -1,21 +1,97 @@
+
+.title{
+    display: inline-block;
+    margin-top: 5px;
+    left: 320px;
+    text-align: center;
+}
+
 .wrapper{
+    background-color: #fcfcfc;
+    padding: 30px;
     width: 1517px;
-    border: 1px solid;
+    border: 0px solid;
+    border-radius: 20px;
     display: flex;
     overflow-x: auto;
-    
+    text-align: left;
+    position: absolute;
+    top: 200px;
 }
 
 .wrapper::-webkit-scrollbar{
-    width:0;
+    width: 0px;
 }
 .item{
-   background-color: white;
-    margin-right: 2px;
+   
+   background-color: black;
+   margin-right: 5px;
+    border-radius: 20px;
+    padding: 30px;
 }
 
 img{
-    min-height: 143px;
+    
+    min-height: 113px;
     width: auto;
     height: 100%;
+    border-radius: 3px;
+    
+}
+
+.other{
+    position: absolute;
+    top: 550px;
+    left: 470px;
+    text-align: center;
+    
+}
+.b2utton{
+   
+    color: black;
+    background-color: #fcfcfc;
+    height: 54px;
+    width: 219px;
+    text-align: center;
+    border-radius: 20px;
+    margin: 30px;
+    padding-top: px;
+    
+}
+
+#yes, #no{
+    color: black;
+    background-color: #fcfcfc;
+    height: 54px;
+    width: 109px;
+    margin-top: 20px;
+    
+    
+    
+}
+
+#yes{
+    border-radius: 20px 0 0 20px;
+}
+
+#no{
+    border-radius: 0 20px 20px 0;
+}
+
+.explore{
+    
+    text-align: center;
+}
+
+#explore{
+    color: #fcfcfc;
+    background-color: #3AA9C5;
+    width: 261px;
+    height: 48px;
+    justify-content: center;
+    position: absolute;
+    top: 750px;
+    left: 450px;
+    border: 3px solid #fcfcfc;
+    border-radius: 10px;
 }
