@@ -42,4 +42,39 @@ h1 {
     background-color: #e2e8ee;
     height: 151px;
 }
+.box {
+  display: flex; 
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  width: 375px;
+  height: 329px;
+  margin:0 auto;
+  background-color:#e2e8ee;
+}
+h2 {
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: normal;
+
+}
+.go-button{
+ justify-content: center;
+  text-align: center;
+  border-style: hidden;
+  border-radius: 10px;
+  width: 210px;
+  height: 40px;
+  margin:0 auto;
+  background-color:white
+  
+   
+} 
+
+.walking {
+  display:flex ;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}  
 
