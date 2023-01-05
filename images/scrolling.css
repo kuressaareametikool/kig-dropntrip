@@ -1,0 +1,22 @@
+.container {
+    width: 375;
+    display: flex;
+    overflow-x: auto;
+}
+.container imga {
+    margin-right: 15px;
+}
+.container::-webkit-scrollbar {
+    display: none;
+}
+body {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+ }
+img {
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 43;
+    width: auto;
+}
