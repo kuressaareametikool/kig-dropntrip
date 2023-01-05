@@ -1,10 +1,14 @@
 <html>
 
-<head>
+<head>  
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>DropTrip Map</title>
   <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
 
   <link rel="stylesheet" type="text/css" href="assets/map.css" />
+  <link rel="stylesheet" href="scrolling.css">
   <script type="module" src="assets/map.js"></script>
 </head>
 
@@ -25,6 +29,20 @@
   </div>
   <div class="googlemap">
     <input id="pac-input" class="controls" type="text" placeholder="Otsi" />
+    <div class="mapscrollarea">
+      <div class="mapscrollicons">
+        <img src="images/Coffee button.png">
+        <img src="images/Art button.png">
+        <img src="images/Beach button.png">
+        <img src="images/Sports button.png">
+        <img src="images/Parks button.png">
+        <img src="images/Museum button.png">
+        <img src="images/Food button.png">
+        <img src="images/Shopping button.png">
+        <img src="images/Family button.png">
+        <img src="images/Nightlife button.png">
+      </div>
+    </div>
     <div id="map"></div>
   </div>
   <!-- 
