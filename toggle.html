@@ -1,16 +1,105 @@
-<style>
-    body {
-        margin: 64px;
-        font-family: sans-serif;
-    }
-</style>
+<!DOCTYPE html>
+<html>
+   
+<head>
 
-<div style="background: #393333; width: 128px; height: 48px; border-radius: 10000px; overflow: hidden; display: flex; align-items: center; padding-left: 6px;">
+     
+    <style>
+ 
+               
+        /* toggle in label designing */
+        .toggle {
+            position : relative ;
+            display : inline-block;
+            width : 125px;
+            height : 48px;
+            background-color: #393333;
+            border-radius: 24px;
+            
+        }
+               
+        /* After slide changes */
+        .toggle:after {
+            content: '';
+            position: absolute;
+            width: 39px;
+            height: 39px;
+            border-radius: 22.5px;
+            background-color: #3AA9C5;
+            top: 4px;
+            left: 5px;
+            transition:  all 0.5s;
+        }
+               
+        /* Toggle text */
+        p {
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+        }
+               
+        /* Checkbox checked effect */
+        .checkbox:checked + .toggle::after {
+            left : 81px;
+        }
+               
+        /* Checkbox checked toggle label bg color */
+        .checkbox:checked + .toggle {
+            background-color: #3AA9C5;
+        }
+               
+        /* Checkbox vanished */
+        .checkbox {
+            display : none;
+        }
+    </style>
+</head>
+ 
+<body>
+    <center>
+        <h1>GeeksforGeeks</h1>
+        <b>Toggle switch with HTML and CSS</b>
+        <br><br>
+        <input type="checkbox" id="switch"
+                    class="checkbox" />
+        <label for="switch" class="toggle">
+             
+ 
+<p style="width: 100%; color: white; display: flex; justify-content: center; align-items: center; font-size: 18px; letter-spacing: 4px; text-transform: uppercase;">drop trip</p>
+ 
+ 
+        </label>
+    </center>
+
+
+
+<div style="background: #393333; width: 125px; height: 48px; border-radius: 10000px; overflow: hidden; display: flex; align-items: center; padding-left: 6px;">
     <div style="background: #3AA9C5; width: 39px; height: 39px; border-radius: 10000px; flex-shrink: 0;">
     </div>
     <div>
         <div style="width: 100%; color: white; display: flex; justify-content: center; align-items: center; font-size: 18px; letter-spacing: 4px; text-transform: uppercase;">
-            aaa
+<<<<<<< HEAD
+            drop
+=======
+           <p style="padding:10px">drop</p>
+>>>>>>> 3063351fb7bf80640c90b5071f862bd06141908f
         </div>
     </div>
 </div>
+
+
+<div style="margin-top:30px; background: #3AA9C5; width: 125px; height: 48px; border-radius: 10000px; overflow: hidden; display: flex; align-items: center; padding-left: 6px;">
+    
+    <div style="width: 100%; color: white; display: flex; justify-content: center; align-items: center; font-size: 18px; letter-spacing: 4px; text-transform: uppercase;">
+        <p style="padding:10px">trip</p>
+     </div>
+    
+    <div style="background: #393333; width: 39px; height: 39px; border-radius: 10000px; flex-shrink: 0; margin-right: 5px;">
+    </div>
+    <div>
+        
+    </div>
+</div>
+
+</body>
+ 
+</html>
