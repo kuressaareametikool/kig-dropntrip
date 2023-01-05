@@ -112,7 +112,7 @@ body {
 #pac-input {
   background-color: #fff;
   font-family: 'Nunito', sans-serif;
-  margin: 12px 0px;
+  margin: 64px 0px;
   padding: 0px 10px;
   font-size: 18px;
   border: 0px;
@@ -120,7 +120,7 @@ body {
   border-top-left-radius: 2px;
   box-shadow: rgb(0 0 0 / 30%) 0px 1px 4px -1px;
   min-width: 44px;
-  width: 300px;
+  width: 90%;
   height: 2em;
   font-weight: 600;
 }
@@ -459,4 +459,33 @@ CORE STYLES ABOVE - NO TOUCHY
 
 .toggle-switchy[data-color='blue']>input:checked+.toggle>.switch {
   border-color: #3498db;
+}
+.gmnoprint, .gm-fullscreen-control {
+  display: none;
+}
+
+/* MAP SCROLLING ICONS */
+.mapscrollicons {
+  width: 375;
+  display: flex;
+  overflow-x: auto;
+}
+.mapscrollicons img a {
+  margin-right: 15px;
+}
+.mapscrollicons::-webkit-scrollbar {
+  display: none;
+}
+.mapscrollarea {
+  display: flex;
+  align-items: center;
+  margin-top: .5em;
+  position: absolute;
+  z-index: 9;
+}
+.mapscrollicons img {
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 43;
+  width: auto;
 }
