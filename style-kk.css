@@ -1,65 +1,61 @@
-#LogoFront {
-    position: absolute;
-    margin: auto;
-    height: 100px;
-    top: 163px;
+/* -----------KONTEINER --------------- */
+.FR-content {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    align-content: center;
+    flex-wrap: nowrap;
+    padding: 2rem 1rem;
 }
 
-.vl {
-    border-top: 2px solid #393333;
-    margin: auto;
-
-    position: absolute;
-    width: 215px;
-    height: 0px;
-    top: 284.67px;
-
-}
-
-#FrontHeadline {
-    position: absolute;
-    height: 55px;
-    top: 301px;
-    margin: auto;
-
-    font-family: 'Nunito';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 25px;
+/* ------- LOGO KONTEINER --------------*/ 
+.FR-logo-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
     align-items: center;
     text-align: center;
-    letter-spacing: 0.2em;
-    color: #000000;
+ }
 
+
+.FR-joon {
+    border-top: 2px solid #393333;
+    width: 215px;
+    height: 0px;
 }
 
-
-.Front-sostm-kast  { 
-    position: absolute;
-    top: 500px;
-    min-height: 50px;
-    min-height: 50px;
-    background: #bdd7e6;
-    padding: 1rem;
-
-}
-
-.Front-sostm-kast a {
+/* ------------ LOGIN ------------------*/ 
+.FR-login-container {
     display: flex;
-       background: #FFFFFF;
-border: 2px solid #000000;
-border-radius: 10px;
-margin: 1.5rem;
-padding:  0.8rem 2rem;
-gap: 2rem;
-
+    flex-direction: column;
+    gap: 0.5rem;
 }
-.Front-sostm-kast a img {
+.FR-login-container a {
+    display: flex;
+    background: #FFFFFF;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    padding: 0.8rem 2rem;
+    gap: 1rem;
+}
+
+.FR-login-container a img {
     width: 26px;
 }
 
-.Front-sostm-kast .button-text {
-    flex:1;
+.FR-login-container .button-text {
+    flex: 1;
     text-align: center;
 }
+
+/* ---------- SKIP ----------- */
+.FR-skip-container {
+    display: flex;
+    min-width: 200px;
+    justify-content: center;
+    gap: 1rem;
+    padding-top: 1rem;
+}
+
