@@ -34,28 +34,10 @@
 
 }
 
-.Front-sostm {
-    padding: 1rem 1.5rem;
-    position: absolute;
-    top: 432px;
-    background: #FFFFFF;
-    border: 2px solid #000000;
-    border-radius: 10px;
-    display: inline-flex;
-    align-items: center;
-    justify-content: space-around;
-    gap: 1rem;
-
-}
-
-
-.Front-sostm img {
-    width: 26px;
-}
 
 .Front-sostm-kast  { 
     position: absolute;
-    top: 600px;
+    top: 500px;
     min-height: 50px;
     min-height: 50px;
     background: #bdd7e6;
@@ -65,14 +47,19 @@
 
 .Front-sostm-kast a {
     display: flex;
-    border: solid black 2px;
-    margin: 1rem;
-    padding: 1rem;
+       background: #FFFFFF;
+border: 2px solid #000000;
+border-radius: 10px;
+margin: 1.5rem;
+padding:  0.8rem 2rem;
+gap: 2rem;
 
+}
+.Front-sostm-kast a img {
+    width: 26px;
 }
 
 .Front-sostm-kast .button-text {
     flex:1;
-    padding: 1rem;
     text-align: center;
 }
