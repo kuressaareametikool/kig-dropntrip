@@ -11,7 +11,7 @@
         .toggle {
             position : relative ;
             display : inline-block;
-            width : 125px;
+            width : 178px;
             height : 48px;
             background-color: #393333;
             border-radius: 24px;
@@ -22,13 +22,13 @@
         .toggle:after {
             content: '';
             position: absolute;
-            width: 39px;
-            height: 39px;
-            border-radius: 22.5px;
+            width: 82px;
+            height: 38px;
+            border-radius: 100px;
             background-color: #3AA9C5;
-            top: 4px;
+            top: 10%;
             left: 5px;
-            transition:  all 0.5s;
+            transition: all 0.5s;
         }
                
         /* Toggle text */
@@ -39,13 +39,10 @@
                
         /* Checkbox checked effect */
         .checkbox:checked + .toggle::after {
-            left : 81px;
+            left : 90px;
         }
                
-        /* Checkbox checked toggle label bg color */
-        .checkbox:checked + .toggle {
-            background-color: #3AA9C5;
-        }
+        
                
         /* Checkbox vanished */
         .checkbox {
@@ -56,9 +53,7 @@
  
 <body>
     <center>
-        <h1>GeeksforGeeks</h1>
-        <b>Toggle switch with HTML and CSS</b>
-        <br><br>
+       
         <input type="checkbox" id="switch"
                     class="checkbox" />
         <label for="switch" class="toggle">
@@ -95,6 +90,12 @@
         
     </div>
 </div>
+
+
+
+
+
+
 
 </body>
  
