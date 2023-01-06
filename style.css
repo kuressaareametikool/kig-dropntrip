@@ -48,7 +48,7 @@ h1 {
   justify-content: center;
   text-align: center;
   width: 375px;
-  height: 365px;
+  padding:20px;
   margin:0 auto;
   background-color:#e2e8ee;
 }
