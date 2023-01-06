@@ -2,7 +2,7 @@
 
 ## Links
 
-[Figma] (https://www.figma.com/file/vn8XmMlmkXJHiH5BMpXQxA/Drop'N'Trip?node-id=0%3A1&t=IrEZWtRTWWB0J47p-1)
+[Figma](https://www.figma.com/file/vn8XmMlmkXJHiH5BMpXQxA/Drop'N'Trip?node-id=0%3A1&t=IrEZWtRTWWB0J47p-1)
 [Github](https://github.com/kuressaareametikool/kig-dropntrip)
 
 ## Our team members
@@ -32,9 +32,7 @@ Started the plan and gave everyone an issue to complete.
 ## Day 2
 Improving and finishing our code.
 
-Our              team
-:--------------------------------------------------:
-https://github.com/kuressaareametikool/kig-dropntrip/blob/main/images/img1.jpg](https://github.com/kuressaareametikool/kig-dropntrip/blob/main/images/img1.jpg?raw=true)
+![Our team] (https://github.com/kuressaareametikool/kig-dropntrip/blob/main/images/img1.jpg](https://github.com/kuressaareametikool/kig-dropntrip/blob/main/images/img1.jpg?raw=true)
 
 
 
