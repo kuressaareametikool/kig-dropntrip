@@ -34,6 +34,7 @@ body {
 
 .header .account {
   margin-left: auto;
+  margin-right: 1em;
 }
 
 .header .timeleft {
@@ -466,9 +467,10 @@ CORE STYLES ABOVE - NO TOUCHY
 
 /* MAP SCROLLING ICONS */
 .mapscrollicons {
-  width: 375;
+  width: 100vw;
   display: flex;
   overflow-x: auto;
+  height: 43px;
 }
 .mapscrollicons img a {
   margin-right: 15px;
