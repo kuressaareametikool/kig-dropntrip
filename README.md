@@ -32,19 +32,10 @@ Started the plan and gave everyone an issue to complete.
 ## Day 2
 Improving and finishing our code.
 
-![Our team] (https://github.com/kuressaareametikool/kig-dropntrip/blob/main/images/img1.jpg)
+![Our team](https://github.com/kuressaareametikool/kig-dropntrip/blob/main/images/img1.jpg)
 
 
 
 -------------------------------------------
 
-
-## Questions 
-**How will you apply what you've learnt in future projects?**
-
-
-**One soft skill**
-
-
-**One hard skill**
 
