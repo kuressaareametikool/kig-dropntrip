@@ -34,7 +34,7 @@ Improving and finishing our code.
 -----------------------------------------------------------------
 Our              team
 :--------------------------------------------------:
-![image](https://github.com/kuressaareametikool/kig-dropntrip/blob/main/images/img1.jpg)
+![image]([https://github.com/kuressaareametikool/kig-dropntrip/blob/main/images/img1.jpg](https://github.com/kuressaareametikool/kig-dropntrip/blob/main/images/img1.jpg?raw=true)
 
 
 
