@@ -32,7 +32,7 @@ Started the plan and gave everyone an issue to complete.
 ## Day 2
 Improving and finishing our code.
 
-![Our team] (https://github.com/kuressaareametikool/kig-dropntrip/blob/main/images/img1.jpg](https://github.com/kuressaareametikool/kig-dropntrip/blob/main/images/img1.jpg?raw=true)
+![Our team] (https://github.com/kuressaareametikool/kig-dropntrip/blob/main/images/img1.jpg)
 
 
 
