@@ -9,19 +9,13 @@
 body {
   background-color: #f1f3f5;
   margin: 0;
+  background-color:#e2e8ee;
   font-family:'Nunito', sans-serif;
 }
 
 /* Drop page */
 
-.content {
-  display: flex;
-  justify-content: center;
-  width: 375px;
-  height: 812px;
-  margin:0 auto;
-  background-color:#e2e8ee;
-}
+
 
 .header {
   margin-top: 61px;
@@ -42,3 +36,98 @@ h1 {
     background-color: #e2e8ee;
     height: 151px;
 }
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-height: 450px
+}
+
+.button_content {
+  display: flex;
+  flex-direction: column;
+}
+
+.logo {
+  display: flex;
+  margin: auto;
+  margin-top: 163px;
+}
+
+.line {
+  margin: auto;
+  margin-top: 20.95px;
+
+}
+
+.index_buttons {
+width: 292px;
+height: 43px;
+background: #FFFFFF;
+border: 2px solid #000000;
+border-radius: 10px;
+margin-top: 25px;
+text-align: center;
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+letter-spacing: 0.1em;
+}
+
+.index_buttons:hover {
+  transition: 150ms;
+  opacity: 50%;
+  cursor: pointer;
+}
+
+.index_icons {
+  margin-right: 10px;
+  margin-left: auto;
+
+}
+
+.time_text {
+display: flex;
+margin: auto;
+margin-top: 20px;
+margin-bottom: 30px;
+width: 215px;
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 25px;
+align-items: center;
+text-align: center;
+letter-spacing: 0.2em;
+color: #000000;
+}
+
+.skip_button {
+display: flex;
+margin: auto;
+margin-top: 66px;
+border: none;
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 27px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.2em;
+color: #000000;
+}
+
+.skip_button:hover {
+  transition: 150ms;
+  opacity: 50%;
+  background: none;
+  text-decoration: underline;
+  cursor: pointer;
+}
+

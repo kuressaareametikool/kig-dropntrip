@@ -1,0 +1,493 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&family=' Nunito', sans-serif&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/** Optional: Makes the sample page fill the window. */
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #f1f3f5;
+  font-family: 'Nunito', sans-serif;
+}
+
+.header {
+  margin-top: 61px;
+}
+
+.header .dropaccount {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 1em;
+
+}
+
+.header .dropbtn {
+  margin-left: auto;
+  margin-right: -48px;
+}
+
+.header .account {
+  margin-left: auto;
+  margin-right: 1em;
+}
+
+.header .timeleft {
+  text-align: center;
+  padding-bottom: 1em;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  letter-spacing: 0.2em;
+
+  color: #000000;
+
+}
+
+.header .timeleft span {
+  font-weight: 600;
+
+}
+
+/* 
+ * Always set the map height explicitly to define the size of the div element
+ * that contains the map. 
+ */
+#map {
+  height: 100%;
+}
+
+
+#description {
+  font-family: 'Nunito', sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+#infowindow-content .title {
+  font-weight: bold;
+}
+
+#infowindow-content {
+  display: none;
+}
+
+#map #infowindow-content {
+  display: inline;
+}
+
+.pac-card {
+  background-color: #fff;
+  border: 0;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px -1px rgba(0, 0, 0, 0.3);
+  margin: 10px;
+  padding: 0 0.5em;
+  font: 400 18px 'Nunito', sans-serif, Arial, sans-serif;
+  overflow: hidden;
+  font-family: 'Nunito', sans-serif;
+  padding: 0;
+}
+
+#pac-container {
+  padding-bottom: 12px;
+  margin-right: 12px;
+}
+
+.pac-controls {
+  display: inline-block;
+  padding: 5px 11px;
+}
+
+.pac-controls label {
+  font-family: 'Nunito', sans-serif;
+  font-size: 13px;
+  font-weight: 300;
+}
+
+#pac-input {
+  background-color: #fff;
+  font-family: 'Nunito', sans-serif;
+  margin: 64px 0px;
+  padding: 0px 10px;
+  font-size: 18px;
+  border: 0px;
+  border-bottom-left-radius: 2px;
+  border-top-left-radius: 2px;
+  box-shadow: rgb(0 0 0 / 30%) 0px 1px 4px -1px;
+  min-width: 44px;
+  width: 90%;
+  height: 2em;
+  font-weight: 600;
+}
+
+#pac-input:focus {
+  border-color: #4d90fe;
+}
+
+#title {
+  color: #fff;
+  background-color: #4d90fe;
+  font-size: 25px;
+  font-weight: 500;
+  padding: 6px 12px;
+}
+
+#target {
+  width: 345px;
+}
+
+/* DROP AND TRIP BUTTON */
+
+.toggle-switchy {
+  color: #fff;
+}
+
+.toggle-switchy>input+.toggle:before {
+  content: 'TRIP';
+}
+
+.toggle-switchy>input+.toggle:after {
+  content: 'DROP';
+}
+
+.toggle-switchy>input+.toggle>.switch {
+  background: #3AA9C5;
+}
+
+.toggle-switchy>input+.toggle+.label {
+  color: #000;
+}
+
+.toggle-switchy>input:checked+.toggle {
+  background: #3AA9C5;
+}
+
+.toggle-switchy>input:not(:checked)+.toggle {
+  background: #393333;
+}
+
+.toggle-switchy>input:checked+.toggle>.switch {
+  border: 5px solid #3AA9C5;
+  background: #393333;
+
+}
+
+.toggle-switchy>input:not(:checked)+.toggle>.switch {
+  border: 5px solid #393333;
+  background: #3AA9C5;
+}
+
+.toggle-switchy>input:focus+.toggle,
+.toggle-switchy>input:active+.toggle {
+  box-shadow: 0 0 0px 0px rgba(0, 119, 200, 0.50);
+}
+
+/* Rounded switch corners */
+.toggle-switchy>input+.toggle {
+  border-radius: 4px;
+}
+
+.toggle-switchy>input+.toggle .switch {
+  border-radius: 6px;
+}
+
+/* //////////////////////////
+CORE STYLES BELOW - NO TOUCHY
+////////////////////////// */
+.toggle-switchy {
+  display: inline-flex;
+  align-items: center;
+  user-select: none;
+  position: relative;
+  vertical-align: middle;
+  margin-bottom: 0;
+}
+
+.toggle-switchy:hover {
+  cursor: pointer;
+}
+
+.toggle-switchy>input {
+  position: absolute;
+  opacity: 0;
+}
+
+.toggle-switchy>input+.toggle {
+  align-items: center;
+  position: relative;
+}
+
+.toggle-switchy>input+.toggle {
+  overflow: hidden;
+  position: relative;
+  flex-shrink: 0;
+}
+
+.toggle-switchy>input[disabled]+.toggle {
+  opacity: 0.5;
+}
+
+.toggle-switchy>input[disabled]+.toggle:hover {
+  cursor: not-allowed;
+}
+
+.toggle-switchy>input+.toggle {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  cursor: pointer;
+}
+
+.toggle-switchy>input+.toggle>.switch {
+  display: block;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  z-index: 3;
+  box-sizing: border-box;
+}
+
+/* Labels */
+.toggle-switchy>input+.toggle:before,
+.toggle-switchy>input+.toggle:after {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  z-index: 2;
+  height: 100%;
+}
+
+.toggle-switchy>input+.toggle:before {
+  right: 55%;
+}
+
+.toggle-switchy>input+.toggle:after {
+  left: 50%;
+}
+
+.toggle-switchy>input+.toggle+.label {
+  margin-left: 10px;
+}
+
+.toggle-switchy[data-label='left']>input+.toggle {
+  order: 2;
+}
+
+.toggle-switchy[data-label='left']>input+.toggle+.label {
+  order: 1;
+  margin-left: 0;
+  margin-right: 10px;
+}
+
+/* Show / Hide */
+.toggle-switchy>input+.toggle:before {
+  opacity: 0;
+}
+
+.toggle-switchy>input:checked+.toggle:before {
+  opacity: 1;
+}
+
+.toggle-switchy>input:checked+.toggle:after {
+  opacity: 0;
+}
+
+/* Transitions */
+.toggle-switchy>input+.toggle {
+  transition: background 200ms linear, box-shadow 200ms linear;
+}
+
+.toggle-switchy>input+.toggle:before,
+.toggle-switchy>input+.toggle:after {
+  transition: all 200ms linear;
+}
+
+.toggle-switchy>input+.toggle>.switch {
+  transition: right 200ms linear, border-color 200ms linear;
+}
+
+/* //////////////////////////
+CORE STYLES ABOVE - NO TOUCHY
+////////////////////////// */
+
+/* Size: Extra Large */
+.toggle-switchy[data-size='xl']>input+.toggle {
+  width: 125px;
+  height: 48px;
+}
+
+.toggle-switchy[data-size='xl']>input+.toggle>.switch {
+  width: 48px;
+}
+
+.toggle-switchy[data-size='xl']>input+.toggle:before,
+.toggle-switchy[data-size='xl']>input+.toggle:after {
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0.2em;
+}
+
+.toggle-switchy[data-size='xl']>input:not(:checked)+.toggle>.switch {
+  right: calc(100% - 48px);
+}
+
+/* Size: Large */
+.toggle-switchy[data-size='lg']>input+.toggle {
+  width: 75px;
+  height: 35px;
+}
+
+.toggle-switchy[data-size='lg']>input+.toggle>.switch {
+  width: 35px;
+}
+
+.toggle-switchy[data-size='lg']>input+.toggle:before,
+.toggle-switchy[data-size='lg']>input+.toggle:after {
+  font-size: 1rem;
+}
+
+.toggle-switchy[data-size='lg']>input:not(:checked)+.toggle>.switch {
+  right: calc(100% - 35px);
+}
+
+/* Size: Default (Medium) */
+.toggle-switchy>input+.toggle {
+  width: 65px;
+  height: 30px;
+}
+
+.toggle-switchy>input+.toggle>.switch {
+  width: 30px;
+}
+
+.toggle-switchy>input+.toggle:before,
+.toggle-switchy>input+.toggle:after {
+  font-size: 0.8rem;
+}
+
+.toggle-switchy>input:not(:checked)+.toggle>.switch {
+  right: calc(100% - 30px);
+}
+
+/* Size: Small */
+.toggle-switchy[data-size='sm']>input+.toggle {
+  width: 55px;
+  height: 25px;
+}
+
+.toggle-switchy[data-size='sm']>input+.toggle>.switch {
+  width: 25px;
+}
+
+.toggle-switchy[data-size='sm']>input+.toggle:before,
+.toggle-switchy[data-size='sm']>input+.toggle:after {
+  font-size: 0.7rem;
+}
+
+.toggle-switchy[data-size='sm']>input:not(:checked)+.toggle>.switch {
+  right: calc(100% - 25px);
+}
+
+/* Size: Extra Small */
+.toggle-switchy[data-size='xs']>input+.toggle {
+  width: 45px;
+  height: 20px;
+}
+
+.toggle-switchy[data-size='xs']>input+.toggle>.switch {
+  width: 20px;
+}
+
+.toggle-switchy[data-size='xs']>input+.toggle:before,
+.toggle-switchy[data-size='xs']>input+.toggle:after {
+  font-size: 0.5rem;
+}
+
+.toggle-switchy[data-size='xs']>input:not(:checked)+.toggle>.switch {
+  right: calc(100% - 20px);
+}
+
+/* Style: Rounded */
+.toggle-switchy[data-style='rounded']>input+.toggle,
+.toggle-switchy[data-style='rounded']>input+.toggle>.switch {
+  border-radius: 50px;
+}
+
+.toggle-switchy[data-style='rounded']>input+.toggle:before {
+  right: 40%;
+}
+
+.toggle-switchy[data-style='rounded']>input+.toggle:after {
+  left: 40%;
+}
+
+/* Text: Off */
+.toggle-switchy[data-text='false']>input+.toggle:before,
+.toggle-switchy[data-text='false']>input+.toggle:after {
+  content: '';
+}
+
+.toggle-switchy[data-text='false'][data-size='xl']>input+.toggle {
+  width: 80px;
+}
+
+.toggle-switchy[data-text='false'][data-size='lg']>input+.toggle {
+  width: 70px;
+}
+
+.toggle-switchy[data-text='false']>input+.toggle {
+  width: 60px;
+}
+
+.toggle-switchy[data-text='false'][data-size='sm']>input+.toggle {
+  width: 50px;
+}
+
+.toggle-switchy[data-text='false'][data-size='xs']>input+.toggle {
+  width: 40px;
+}
+
+/* Color: Blue */
+.toggle-switchy[data-color='blue']>input:checked+.toggle {
+  background: #3498db;
+}
+
+.toggle-switchy[data-color='blue']>input:checked+.toggle>.switch {
+  border-color: #3498db;
+}
+.gmnoprint, .gm-fullscreen-control {
+  display: none;
+}
+
+/* MAP SCROLLING ICONS */
+.mapscrollicons {
+  width: 100vw;
+  display: flex;
+  overflow-x: auto;
+  height: 43px;
+}
+.mapscrollicons img a {
+  margin-right: 15px;
+}
+.mapscrollicons::-webkit-scrollbar {
+  display: none;
+}
+.mapscrollarea {
+  display: flex;
+  align-items: center;
+  margin-top: .5em;
+  position: absolute;
+  z-index: 9;
+}
+.mapscrollicons img {
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 43;
+  width: auto;
+}
