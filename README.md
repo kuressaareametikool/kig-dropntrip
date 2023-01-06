@@ -6,13 +6,13 @@
 [Github](https://github.com/kuressaareametikool/kig-dropntrip)
 
 ## Our team members
--Sille
--Ulvi
--Inna
--Ulla
--Jan
--Karel
--Raimond
+*Sille
+*Ulvi
+*Inna
+*Ulla
+*Jan
+*Karel
+*Raimond
 
 # Project goal
 An app that would help save your free time when you're waiting for the plane at the airport.
@@ -21,7 +21,7 @@ An app that would help save your free time when you're waiting for the plane at 
 VS Code, Figma, Ubuntu
 
 ### Communication tools
-Slack
+Verbal
 
 ### For project we used: 
 HTML, CSS, Javascript
@@ -33,9 +33,5 @@ Started the plan and gave everyone an issue to complete.
 Improving and finishing our code.
 
 ![Our team](https://github.com/kuressaareametikool/kig-dropntrip/blob/main/images/img1.jpg)
-
-
-
--------------------------------------------
 
 
