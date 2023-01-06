@@ -41,6 +41,7 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: center;
+  max-height: 450px
 }
 
 .button_content {
@@ -126,6 +127,7 @@ color: #000000;
   transition: 150ms;
   opacity: 50%;
   background: none;
+  text-decoration: underline;
   cursor: pointer;
 }
 
