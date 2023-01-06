@@ -6,13 +6,13 @@
 [Github](https://github.com/kuressaareametikool/kig-dropntrip)
 
 ## Our team members
-Sille
-Ulvi
-Inna
-Ulla
-Jan
-Karel
-Raimond
+-Sille
+-Ulvi
+-Inna
+-Ulla
+-Jan
+-Karel
+-Raimond
 
 # Project goal
 An app that would help save your free time when you're waiting for the plane at the airport.
@@ -31,10 +31,10 @@ Started the plan and gave everyone an issue to complete.
 
 ## Day 2
 Improving and finishing our code.
------------------------------------------------------------------
+
 Our              team
 :--------------------------------------------------:
-![image]([https://github.com/kuressaareametikool/kig-dropntrip/blob/main/images/img1.jpg](https://github.com/kuressaareametikool/kig-dropntrip/blob/main/images/img1.jpg?raw=true)
+https://github.com/kuressaareametikool/kig-dropntrip/blob/main/images/img1.jpg](https://github.com/kuressaareametikool/kig-dropntrip/blob/main/images/img1.jpg?raw=true)
 
 
 
